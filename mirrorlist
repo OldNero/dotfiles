@@ -1,0 +1,276 @@
+# STARTED AT: 2024-03-19 21:41:09.077248715 +03:00
+# ARGS: rate-mirrors --allow-root --protocol https arch
+# FETCHED MIRRORS: 1186
+# MIRRORS LEFT AFTER FILTERING: 257
+# JUMP #1
+# EXPLORING US
+# VISITED US
+#     + NEIGHBOR UK (by HubsFirst)
+#     + NEIGHBOR ID (by HubsFirst)
+#     + NEIGHBOR FR (by HubsFirst)
+#     + NEIGHBOR DE (by DistanceFirst)
+#     + NEIGHBOR CA (by DistanceFirst)
+#     + NEIGHBOR NL (by DistanceFirst)
+# [FR] SpeedTestResult { speed: 5.32 MB/s; elapsed: 899.58855ms; connection_time: 457.279362ms }
+# [DE] SpeedTestResult { speed: 832.16 KB/s; elapsed: 971.58152ms; connection_time: 405.529085ms }
+# [DE] SpeedTestResult { speed: 574.71 KB/s; elapsed: 997.331853ms; connection_time: 417.127267ms }
+# [UK] SpeedTestResult { speed: 1.27 MB/s; elapsed: 995.125517ms; connection_time: 420.652758ms }
+# [UK] SpeedTestResult { speed: 1.75 MB/s; elapsed: 997.917053ms; connection_time: 475.146318ms }
+# [NL] SpeedTestResult { speed: 2.52 MB/s; elapsed: 966.710219ms; connection_time: 517.581263ms }
+# [FR] SpeedTestResult { speed: 482.07 KB/s; elapsed: 951.101556ms; connection_time: 524.438838ms }
+# [NL] SpeedTestResult { speed: 4.17 MB/s; elapsed: 969.680413ms; connection_time: 680.163282ms }
+# [ID] SpeedTestResult { speed: 1.09 MB/s; elapsed: 946.73888ms; connection_time: 813.204792ms }
+# [ID] SpeedTestResult { speed: 179.06 KB/s; elapsed: 913.559776ms; connection_time: 930.808447ms }
+# [CA] SpeedTestResult { speed: 452.48 KB/s; elapsed: 968.02643ms; connection_time: 1.026624629s }
+# [US] SpeedTestResult { speed: 198.87 KB/s; elapsed: 822.193525ms; connection_time: 1.036915307s }
+# [CA] SpeedTestResult { speed: 818.88 KB/s; elapsed: 1.000084666s; connection_time: 1.187460013s }
+# TOO FEW BYTES LOADED https://mirror.hackingand.coffee/arch/
+#     TOP NEIGHBOR - CONNECTION TIME: DE - 405.529085ms
+#     TOP NEIGHBOR - SPEED: FR - 5.32 MB/s
+# 
+# JUMP #2
+# EXPLORING DE
+#     + NEIGHBOR CN (by HubsFirst)
+#     + NEIGHBOR SG (by HubsFirst)
+#     + NEIGHBOR JP (by HubsFirst)
+#     + NEIGHBOR CH (by DistanceFirst)
+#     + NEIGHBOR CZ (by DistanceFirst)
+#     + NEIGHBOR DK (by DistanceFirst)
+# EXPLORING FR
+#     + NEIGHBOR SE (by HubsFirst)
+#     + NEIGHBOR PT (by HubsFirst)
+#     + NEIGHBOR IN (by HubsFirst)
+#     + NEIGHBOR PL (by DistanceFirst)
+#     + NEIGHBOR RO (by DistanceFirst)
+#     + NEIGHBOR AT (by DistanceFirst)
+# [SE] SpeedTestResult { speed: 18.20 MB/s; elapsed: 484.805432ms; connection_time: 295.880118ms }
+# [DK] SpeedTestResult { speed: 574.39 KB/s; elapsed: 912.776762ms; connection_time: 484.796413ms }
+# [CZ] SpeedTestResult { speed: 1.02 MB/s; elapsed: 999.264057ms; connection_time: 569.930037ms }
+# [SG] SpeedTestResult { speed: 573.67 KB/s; elapsed: 999.591287ms; connection_time: 578.835134ms }
+# [PL] SpeedTestResult { speed: 270.63 KB/s; elapsed: 967.689965ms; connection_time: 602.312537ms }
+# [CH] SpeedTestResult { speed: 173.48 KB/s; elapsed: 942.942958ms; connection_time: 744.043645ms }
+# [DK] SpeedTestResult { speed: 4.54 MB/s; elapsed: 1.000368005s; connection_time: 796.965871ms }
+# [PT] SpeedTestResult { speed: 100.19 KB/s; elapsed: 977.889642ms; connection_time: 936.483795ms }
+# [IN] SpeedTestResult { speed: 464.75 KB/s; elapsed: 880.550235ms; connection_time: 1.141911383s }
+# [IN] SpeedTestResult { speed: 274.03 KB/s; elapsed: 955.273543ms; connection_time: 1.215912664s }
+# [SE] SpeedTestResult { speed: 366.36 KB/s; elapsed: 893.44356ms; connection_time: 1.253749068s }
+# [CN] SpeedTestResult { speed: 115.30 KB/s; elapsed: 992.134618ms; connection_time: 1.537223814s }
+# [CH] SpeedTestResult { speed: 341.93 KB/s; elapsed: 970.469281ms; connection_time: 1.720667552s }
+# [CN] SpeedTestResult { speed: 185.29 KB/s; elapsed: 971.085909ms; connection_time: 1.138022896s }
+# [RO] SpeedTestResult { speed: 1.30 MB/s; elapsed: 945.164044ms; connection_time: 533.412711ms }
+# [PT] SpeedTestResult { speed: 1.25 MB/s; elapsed: 907.667438ms; connection_time: 2.128541107s }
+# [AT] SpeedTestResult { speed: 281.99 KB/s; elapsed: 992.593704ms; connection_time: 476.097555ms }
+# [RO] SpeedTestResult { speed: 4.27 MB/s; elapsed: 986.282985ms; connection_time: 660.487417ms }
+# [CZ] SpeedTestResult { speed: 4.42 MB/s; elapsed: 807.749213ms; connection_time: 448.631231ms }
+# TOO FEW BYTES LOADED https://mirror.juniorjpdj.pl/archlinux/
+# [SG] SpeedTestResult { speed: 220.28 KB/s; elapsed: 964.993887ms; connection_time: 3.225788713s }
+# TOO FEW BYTES LOADED https://ftp.jaist.ac.jp/pub/Linux/ArchLinux/
+# [JP] SpeedTestResult { speed: 139.77 KB/s; elapsed: 817.161828ms; connection_time: 3.533297568s }
+# [AT] SpeedTestResult { speed: 7.79 MB/s; elapsed: 914.792674ms; connection_time: 2.001809918s }
+#     TOP NEIGHBOR - CONNECTION TIME: SE - 295.880118ms
+#     TOP NEIGHBOR - SPEED: SE - 18.20 MB/s
+# 
+# JUMP #3
+# EXPLORING SE
+#     + NEIGHBOR FI (by DistanceFirst)
+#     + NEIGHBOR RU (by DistanceFirst)
+#     + NEIGHBOR NO (by DistanceFirst)
+# [FI] SpeedTestResult { speed: 3.60 MB/s; elapsed: 915.731704ms; connection_time: 453.175759ms }
+# [NO] SpeedTestResult { speed: 2.27 MB/s; elapsed: 917.680943ms; connection_time: 457.986489ms }
+# [RU] SpeedTestResult { speed: 1.75 MB/s; elapsed: 889.67425ms; connection_time: 484.914713ms }
+# [NO] SpeedTestResult { speed: 2.16 MB/s; elapsed: 614.515247ms; connection_time: 531.275009ms }
+# [FI] SpeedTestResult { speed: 1.87 MB/s; elapsed: 935.976261ms; connection_time: 574.691649ms }
+# [RU] SpeedTestResult { speed: 388.18 KB/s; elapsed: 970.491247ms; connection_time: 621.936252ms }
+#     TOP NEIGHBOR - CONNECTION TIME: FI - 453.175759ms
+#     TOP NEIGHBOR - SPEED: FI - 3.60 MB/s
+# 
+# JUMP #4
+# EXPLORING FI
+#     + NEIGHBOR EE (by DistanceFirst)
+#     + NEIGHBOR UA (by DistanceFirst)
+#     + NEIGHBOR HU (by DistanceFirst)
+# [EE] SpeedTestResult { speed: 3.29 MB/s; elapsed: 961.249235ms; connection_time: 483.091241ms }
+# [UA] SpeedTestResult { speed: 353.70 KB/s; elapsed: 972.752994ms; connection_time: 526.753091ms }
+# [HU] SpeedTestResult { speed: 2.60 MB/s; elapsed: 995.194537ms; connection_time: 562.26993ms }
+# [HU] SpeedTestResult { speed: 2.33 MB/s; elapsed: 996.585673ms; connection_time: 600.130493ms }
+# [UA] SpeedTestResult { speed: 2.31 MB/s; elapsed: 983.654761ms; connection_time: 610.68304ms }
+# [EE] SpeedTestResult { speed: 1.69 MB/s; elapsed: 988.627214ms; connection_time: 716.942143ms }
+#     TOP NEIGHBOR - CONNECTION TIME: EE - 483.091241ms
+#     TOP NEIGHBOR - SPEED: EE - 3.29 MB/s
+# 
+# JUMP #5
+# EXPLORING EE
+#     + NEIGHBOR LV (by DistanceFirst)
+#     + NEIGHBOR LT (by DistanceFirst)
+#     + NEIGHBOR BG (by DistanceFirst)
+# [LV] SpeedTestResult { speed: 3.52 MB/s; elapsed: 945.90451ms; connection_time: 425.607518ms }
+# [LT] SpeedTestResult { speed: 1.62 MB/s; elapsed: 788.656539ms; connection_time: 464.593862ms }
+# [BG] SpeedTestResult { speed: 402.68 KB/s; elapsed: 975.844775ms; connection_time: 561.849449ms }
+# [BG] SpeedTestResult { speed: 4.44 MB/s; elapsed: 999.444705ms; connection_time: 569.112949ms }
+#     TOP NEIGHBOR - CONNECTION TIME: LV - 425.607518ms
+#     TOP NEIGHBOR - SPEED: BG - 4.44 MB/s
+# 
+# JUMP #6
+# EXPLORING LV
+#     + NEIGHBOR IS (by DistanceFirst)
+#     + NEIGHBOR SI (by DistanceFirst)
+#     + NEIGHBOR RS (by DistanceFirst)
+# EXPLORING BG
+#     + NEIGHBOR MK (by DistanceFirst)
+#     + NEIGHBOR GR (by DistanceFirst)
+#     + NEIGHBOR IT (by DistanceFirst)
+# [IT] SpeedTestResult { speed: 4.63 MB/s; elapsed: 940.939378ms; connection_time: 539.420991ms }
+# [IS] SpeedTestResult { speed: 2.68 MB/s; elapsed: 927.671429ms; connection_time: 635.149956ms }
+# [MK] SpeedTestResult { speed: 682.23 KB/s; elapsed: 888.13259ms; connection_time: 574.496163ms }
+# [SI] SpeedTestResult { speed: 2.58 MB/s; elapsed: 989.76647ms; connection_time: 639.542306ms }
+# [IS] SpeedTestResult { speed: 240.73 KB/s; elapsed: 951.752825ms; connection_time: 768.914399ms }
+# [GR] SpeedTestResult { speed: 1.00 MB/s; elapsed: 998.608542ms; connection_time: 852.404888ms }
+# [RS] SpeedTestResult { speed: 786.30 KB/s; elapsed: 1.000170585s; connection_time: 907.794374ms }
+#     TOP NEIGHBOR - CONNECTION TIME: IT - 539.420991ms
+#     TOP NEIGHBOR - SPEED: IT - 4.63 MB/s
+# 
+# JUMP #7
+# EXPLORING IT
+#     + NEIGHBOR MC (by DistanceFirst)
+#     + NEIGHBOR HK (by DistanceFirst)
+#     + NEIGHBOR GE (by DistanceFirst)
+# [MC] SpeedTestResult { speed: 5.27 MB/s; elapsed: 986.025101ms; connection_time: 1.013108372s }
+# [HK] SpeedTestResult { speed: 233.32 KB/s; elapsed: 980.819686ms; connection_time: 1.661092848s }
+# [HK] SpeedTestResult { speed: 345.25 KB/s; elapsed: 948.163398ms; connection_time: 1.769411224s }
+# [GE] SpeedTestResult { speed: 968.79 KB/s; elapsed: 879.410993ms; connection_time: 5.986662418s }
+#     TOP NEIGHBOR - CONNECTION TIME: MC - 1.013108372s
+#     TOP NEIGHBOR - SPEED: MC - 5.27 MB/s
+# 
+
+# RE-TESTING TOP MIRRORS
+# [SE] SpeedTestResult { speed: 22.22 MB/s; elapsed: 368.593396ms; connection_time: 218.032656ms }
+# [AT] SpeedTestResult { speed: 10.90 MB/s; elapsed: 969.185183ms; connection_time: 412.802952ms }
+# [FR] SpeedTestResult { speed: 4.99 MB/s; elapsed: 735.688602ms; connection_time: 447.888937ms }
+# [MC] SpeedTestResult { speed: 3.43 MB/s; elapsed: 998.624542ms; connection_time: 487.528071ms }
+# [IT] SpeedTestResult { speed: 617.92 KB/s; elapsed: 980.594338ms; connection_time: 456.060182ms }
+# ==== RESULTS (top re-tested) ====
+#   1. [SE] SpeedTestResult { speed: 22.22 MB/s; elapsed: 368.593396ms; connection_time: 218.032656ms } -> https://mirror.osbeck.com/archlinux/
+#   2. [AT] SpeedTestResult { speed: 10.90 MB/s; elapsed: 969.185183ms; connection_time: 412.802952ms } -> https://at.arch.mirror.kescher.at/
+#   3. [FR] SpeedTestResult { speed: 4.99 MB/s; elapsed: 735.688602ms; connection_time: 447.888937ms } -> https://mirrors.celianvdb.fr/archlinux/
+#   4. [MC] SpeedTestResult { speed: 3.43 MB/s; elapsed: 998.624542ms; connection_time: 487.528071ms } -> https://mirrors.qontinuum.space/archlinux/
+#   5. [IT] SpeedTestResult { speed: 617.92 KB/s; elapsed: 980.594338ms; connection_time: 456.060182ms } -> https://archlinux.mirror.server24.net/
+#   6. [DK] SpeedTestResult { speed: 4.54 MB/s; elapsed: 1.000368005s; connection_time: 796.965871ms } -> https://mirrors.dotsrc.org/archlinux/
+#   7. [BG] SpeedTestResult { speed: 4.44 MB/s; elapsed: 999.444705ms; connection_time: 569.112949ms } -> https://mirrors.uni-plovdiv.net/archlinux/
+#   8. [CZ] SpeedTestResult { speed: 4.42 MB/s; elapsed: 807.749213ms; connection_time: 448.631231ms } -> https://europe.mirror.pkgbuild.com/
+#   9. [RO] SpeedTestResult { speed: 4.27 MB/s; elapsed: 986.282985ms; connection_time: 660.487417ms } -> https://mirrors.pidginhost.com/arch/
+#  10. [NL] SpeedTestResult { speed: 4.17 MB/s; elapsed: 969.680413ms; connection_time: 680.163282ms } -> https://mirror.ams1.nl.leaseweb.net/archlinux/
+#  11. [FI] SpeedTestResult { speed: 3.60 MB/s; elapsed: 915.731704ms; connection_time: 453.175759ms } -> https://mirror1.sl-chat.ru/archlinux/
+#  12. [LV] SpeedTestResult { speed: 3.52 MB/s; elapsed: 945.90451ms; connection_time: 425.607518ms } -> https://archlinux.koyanet.lv/archlinux/
+#  13. [EE] SpeedTestResult { speed: 3.29 MB/s; elapsed: 961.249235ms; connection_time: 483.091241ms } -> https://mirrors.xtom.ee/archlinux/
+#  14. [IS] SpeedTestResult { speed: 2.68 MB/s; elapsed: 927.671429ms; connection_time: 635.149956ms } -> https://is.mirror.flokinet.net/archlinux/
+#  15. [HU] SpeedTestResult { speed: 2.60 MB/s; elapsed: 995.194537ms; connection_time: 562.26993ms } -> https://super.quantum-mirror.hu/mirrors/pub/archlinux/
+#  16. [SI] SpeedTestResult { speed: 2.58 MB/s; elapsed: 989.76647ms; connection_time: 639.542306ms } -> https://mirror.tux.si/arch/
+#  17. [NL] SpeedTestResult { speed: 2.52 MB/s; elapsed: 966.710219ms; connection_time: 517.581263ms } -> https://mirror.erickochen.nl/archlinux/
+#  18. [HU] SpeedTestResult { speed: 2.33 MB/s; elapsed: 996.585673ms; connection_time: 600.130493ms } -> https://nova.quantum-mirror.hu/mirrors/pub/archlinux/
+#  19. [UA] SpeedTestResult { speed: 2.31 MB/s; elapsed: 983.654761ms; connection_time: 610.68304ms } -> https://mirror.mirohost.net/archlinux/
+#  20. [NO] SpeedTestResult { speed: 2.27 MB/s; elapsed: 917.680943ms; connection_time: 457.986489ms } -> https://mirror.archlinux.no/
+#  21. [NO] SpeedTestResult { speed: 2.16 MB/s; elapsed: 614.515247ms; connection_time: 531.275009ms } -> https://mirror.neuf.no/archlinux/
+#  22. [FI] SpeedTestResult { speed: 1.87 MB/s; elapsed: 935.976261ms; connection_time: 574.691649ms } -> https://arch.kyberorg.fi/
+#  23. [UK] SpeedTestResult { speed: 1.75 MB/s; elapsed: 997.917053ms; connection_time: 475.146318ms } -> https://archlinux.uk.mirror.allworldit.com/archlinux/
+#  24. [RU] SpeedTestResult { speed: 1.75 MB/s; elapsed: 889.67425ms; connection_time: 484.914713ms } -> https://mirror3.sl-chat.ru/archlinux/
+#  25. [EE] SpeedTestResult { speed: 1.69 MB/s; elapsed: 988.627214ms; connection_time: 716.942143ms } -> https://mirror.cspacehostings.com/archlinux/
+#  26. [LT] SpeedTestResult { speed: 1.62 MB/s; elapsed: 788.656539ms; connection_time: 464.593862ms } -> https://mirrors.atviras.lt/archlinux/
+#  27. [RO] SpeedTestResult { speed: 1.30 MB/s; elapsed: 945.164044ms; connection_time: 533.412711ms } -> https://mirror.efect.ro/archlinux/
+#  28. [UK] SpeedTestResult { speed: 1.27 MB/s; elapsed: 995.125517ms; connection_time: 420.652758ms } -> https://london.mirror.pkgbuild.com/
+#  29. [PT] SpeedTestResult { speed: 1.25 MB/s; elapsed: 907.667438ms; connection_time: 2.128541107s } -> https://mirror.leitecastro.com/archlinux/
+#  30. [ID] SpeedTestResult { speed: 1.09 MB/s; elapsed: 946.73888ms; connection_time: 813.204792ms } -> https://mirror.ditatompel.com/archlinux/
+#  31. [CZ] SpeedTestResult { speed: 1.02 MB/s; elapsed: 999.264057ms; connection_time: 569.930037ms } -> https://mirror.dkm.cz/archlinux/
+#  32. [GR] SpeedTestResult { speed: 1.00 MB/s; elapsed: 998.608542ms; connection_time: 852.404888ms } -> https://repo.greeklug.gr/data/pub/linux/archlinux/
+#  33. [GE] SpeedTestResult { speed: 968.79 KB/s; elapsed: 879.410993ms; connection_time: 5.986662418s } -> https://archlinux.grena.ge/
+#  34. [DE] SpeedTestResult { speed: 832.16 KB/s; elapsed: 971.58152ms; connection_time: 405.529085ms } -> https://arch.jensgutermuth.de/
+#  35. [CA] SpeedTestResult { speed: 818.88 KB/s; elapsed: 1.000084666s; connection_time: 1.187460013s } -> https://mirror.quantum5.ca/archlinux/
+#  36. [RS] SpeedTestResult { speed: 786.30 KB/s; elapsed: 1.000170585s; connection_time: 907.794374ms } -> https://mirror1.sox.rs/archlinux/
+#  37. [MK] SpeedTestResult { speed: 682.23 KB/s; elapsed: 888.13259ms; connection_time: 574.496163ms } -> https://mirror.t-home.mk/archlinux/
+#  38. [DE] SpeedTestResult { speed: 574.71 KB/s; elapsed: 997.331853ms; connection_time: 417.127267ms } -> https://mirror.moson.org/arch/
+#  39. [DK] SpeedTestResult { speed: 574.39 KB/s; elapsed: 912.776762ms; connection_time: 484.796413ms } -> https://mirror.one.com/archlinux/
+#  40. [SG] SpeedTestResult { speed: 573.67 KB/s; elapsed: 999.591287ms; connection_time: 578.835134ms } -> https://mirror.jingk.ai/archlinux/
+#  41. [FR] SpeedTestResult { speed: 482.07 KB/s; elapsed: 951.101556ms; connection_time: 524.438838ms } -> https://archlinux.mailtunnel.eu/
+#  42. [IN] SpeedTestResult { speed: 464.75 KB/s; elapsed: 880.550235ms; connection_time: 1.141911383s } -> https://mirror.albony.in/archlinux/
+#  43. [CA] SpeedTestResult { speed: 452.48 KB/s; elapsed: 968.02643ms; connection_time: 1.026624629s } -> https://mirror.scd31.com/arch/
+#  44. [BG] SpeedTestResult { speed: 402.68 KB/s; elapsed: 975.844775ms; connection_time: 561.849449ms } -> https://mirror.telepoint.bg/archlinux/
+#  45. [RU] SpeedTestResult { speed: 388.18 KB/s; elapsed: 970.491247ms; connection_time: 621.936252ms } -> https://mirror.nw-sys.ru/archlinux/
+#  46. [SE] SpeedTestResult { speed: 366.36 KB/s; elapsed: 893.44356ms; connection_time: 1.253749068s } -> https://ftp.myrveln.se/pub/linux/archlinux/
+#  47. [UA] SpeedTestResult { speed: 353.70 KB/s; elapsed: 972.752994ms; connection_time: 526.753091ms } -> https://repo.hyron.dev/archlinux/
+#  48. [HK] SpeedTestResult { speed: 345.25 KB/s; elapsed: 948.163398ms; connection_time: 1.769411224s } -> https://asia.mirror.pkgbuild.com/
+#  49. [CH] SpeedTestResult { speed: 341.93 KB/s; elapsed: 970.469281ms; connection_time: 1.720667552s } -> https://theswissbay.ch/archlinux/
+#  50. [AT] SpeedTestResult { speed: 281.99 KB/s; elapsed: 992.593704ms; connection_time: 476.097555ms } -> https://arch.mirror.zachlge.org/
+#  51. [IN] SpeedTestResult { speed: 274.03 KB/s; elapsed: 955.273543ms; connection_time: 1.215912664s } -> https://mirror.nag.albony.in/archlinux/
+#  52. [PL] SpeedTestResult { speed: 270.63 KB/s; elapsed: 967.689965ms; connection_time: 602.312537ms } -> https://arch.sakamoto.pl/
+#  53. [IS] SpeedTestResult { speed: 240.73 KB/s; elapsed: 951.752825ms; connection_time: 768.914399ms } -> https://mirrors.opensource.is/archlinux/
+#  54. [HK] SpeedTestResult { speed: 233.32 KB/s; elapsed: 980.819686ms; connection_time: 1.661092848s } -> https://mirror.xtom.com.hk/archlinux/
+#  55. [SG] SpeedTestResult { speed: 220.28 KB/s; elapsed: 964.993887ms; connection_time: 3.225788713s } -> https://mirror.guillaumea.fr/archlinux/
+#  56. [US] SpeedTestResult { speed: 198.87 KB/s; elapsed: 822.193525ms; connection_time: 1.036915307s } -> https://america.mirror.pkgbuild.com/
+#  57. [CN] SpeedTestResult { speed: 185.29 KB/s; elapsed: 971.085909ms; connection_time: 1.138022896s } -> https://mirrors.ustc.edu.cn/archlinux/
+#  58. [ID] SpeedTestResult { speed: 179.06 KB/s; elapsed: 913.559776ms; connection_time: 930.808447ms } -> https://kacabenggala.uny.ac.id/archlinux/
+#  59. [CH] SpeedTestResult { speed: 173.48 KB/s; elapsed: 942.942958ms; connection_time: 744.043645ms } -> https://pkg.adfinis.com/archlinux/
+#  60. [JP] SpeedTestResult { speed: 139.77 KB/s; elapsed: 817.161828ms; connection_time: 3.533297568s } -> https://mirrors.cat.net/archlinux/
+#  61. [CN] SpeedTestResult { speed: 115.30 KB/s; elapsed: 992.134618ms; connection_time: 1.537223814s } -> https://mirrors.qvq.net.cn/archlinux/
+#  62. [PT] SpeedTestResult { speed: 100.19 KB/s; elapsed: 977.889642ms; connection_time: 936.483795ms } -> https://ftp.rnl.tecnico.ulisboa.pt/pub/archlinux/
+# FINISHED AT: 2024-03-19 21:41:39.360232834 +03:00
+Server = https://mirror.osbeck.com/archlinux/$repo/os/$arch
+Server = https://at.arch.mirror.kescher.at/$repo/os/$arch
+Server = https://mirrors.celianvdb.fr/archlinux/$repo/os/$arch
+Server = https://mirrors.qontinuum.space/archlinux/$repo/os/$arch
+Server = https://archlinux.mirror.server24.net/$repo/os/$arch
+Server = https://mirrors.dotsrc.org/archlinux/$repo/os/$arch
+Server = https://mirrors.uni-plovdiv.net/archlinux/$repo/os/$arch
+Server = https://europe.mirror.pkgbuild.com/$repo/os/$arch
+Server = https://mirrors.pidginhost.com/arch/$repo/os/$arch
+Server = https://mirror.ams1.nl.leaseweb.net/archlinux/$repo/os/$arch
+Server = https://mirror1.sl-chat.ru/archlinux/$repo/os/$arch
+Server = https://archlinux.koyanet.lv/archlinux/$repo/os/$arch
+Server = https://mirrors.xtom.ee/archlinux/$repo/os/$arch
+Server = https://is.mirror.flokinet.net/archlinux/$repo/os/$arch
+Server = https://super.quantum-mirror.hu/mirrors/pub/archlinux/$repo/os/$arch
+Server = https://mirror.tux.si/arch/$repo/os/$arch
+Server = https://mirror.erickochen.nl/archlinux/$repo/os/$arch
+Server = https://nova.quantum-mirror.hu/mirrors/pub/archlinux/$repo/os/$arch
+Server = https://mirror.mirohost.net/archlinux/$repo/os/$arch
+Server = https://mirror.archlinux.no/$repo/os/$arch
+Server = https://mirror.neuf.no/archlinux/$repo/os/$arch
+Server = https://arch.kyberorg.fi/$repo/os/$arch
+Server = https://archlinux.uk.mirror.allworldit.com/archlinux/$repo/os/$arch
+Server = https://mirror3.sl-chat.ru/archlinux/$repo/os/$arch
+Server = https://mirror.cspacehostings.com/archlinux/$repo/os/$arch
+Server = https://mirrors.atviras.lt/archlinux/$repo/os/$arch
+Server = https://mirror.efect.ro/archlinux/$repo/os/$arch
+Server = https://london.mirror.pkgbuild.com/$repo/os/$arch
+Server = https://mirror.leitecastro.com/archlinux/$repo/os/$arch
+Server = https://mirror.ditatompel.com/archlinux/$repo/os/$arch
+Server = https://mirror.dkm.cz/archlinux/$repo/os/$arch
+Server = https://repo.greeklug.gr/data/pub/linux/archlinux/$repo/os/$arch
+Server = https://archlinux.grena.ge/$repo/os/$arch
+Server = https://arch.jensgutermuth.de/$repo/os/$arch
+Server = https://mirror.quantum5.ca/archlinux/$repo/os/$arch
+Server = https://mirror1.sox.rs/archlinux/$repo/os/$arch
+Server = https://mirror.t-home.mk/archlinux/$repo/os/$arch
+Server = https://mirror.moson.org/arch/$repo/os/$arch
+Server = https://mirror.one.com/archlinux/$repo/os/$arch
+Server = https://mirror.jingk.ai/archlinux/$repo/os/$arch
+Server = https://archlinux.mailtunnel.eu/$repo/os/$arch
+Server = https://mirror.albony.in/archlinux/$repo/os/$arch
+Server = https://mirror.scd31.com/arch/$repo/os/$arch
+Server = https://mirror.telepoint.bg/archlinux/$repo/os/$arch
+Server = https://mirror.nw-sys.ru/archlinux/$repo/os/$arch
+Server = https://ftp.myrveln.se/pub/linux/archlinux/$repo/os/$arch
+Server = https://repo.hyron.dev/archlinux/$repo/os/$arch
+Server = https://asia.mirror.pkgbuild.com/$repo/os/$arch
+Server = https://theswissbay.ch/archlinux/$repo/os/$arch
+Server = https://arch.mirror.zachlge.org/$repo/os/$arch
+Server = https://mirror.nag.albony.in/archlinux/$repo/os/$arch
+Server = https://arch.sakamoto.pl/$repo/os/$arch
+Server = https://mirrors.opensource.is/archlinux/$repo/os/$arch
+Server = https://mirror.xtom.com.hk/archlinux/$repo/os/$arch
+Server = https://mirror.guillaumea.fr/archlinux/$repo/os/$arch
+Server = https://america.mirror.pkgbuild.com/$repo/os/$arch
+Server = https://mirrors.ustc.edu.cn/archlinux/$repo/os/$arch
+Server = https://kacabenggala.uny.ac.id/archlinux/$repo/os/$arch
+Server = https://pkg.adfinis.com/archlinux/$repo/os/$arch
+Server = https://mirrors.cat.net/archlinux/$repo/os/$arch
+Server = https://mirrors.qvq.net.cn/archlinux/$repo/os/$arch
+Server = https://ftp.rnl.tecnico.ulisboa.pt/pub/archlinux/$repo/os/$arch
