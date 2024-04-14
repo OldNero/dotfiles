@@ -1,0 +1,15 @@
+com.github.Matoking.protontricks
+com.github.tchx84.Flatseal
+com.github.wwmm.easyeffects
+com.heroicgameslauncher.hgl
+com.mattjakeman.ExtensionManager
+com.obsproject.Studio
+com.rafaelmardojai.Blanket
+com.stremio.Service
+com.stremio.Stremio
+com.visualstudio.code
+io.mpv.Mpv
+net.davidotek.pupgui2
+org.audacityteam.Audacity
+org.libreoffice.LibreOffice
+org.strawberrymusicplayer.strawberry

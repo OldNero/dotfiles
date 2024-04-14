@@ -1,0 +1,51 @@
+Sun Apr 14 09:08:17 AM +03 2024 INFO - initAID - Set AID from STEAM_COMPAT_APP_ID to '0'
+Sun Apr 14 09:08:17 AM +03 2024 INFO - initAID - Set AID to PLACEHOLDERAID '31337'
+Sun Apr 14 09:08:17 AM +03 2024 INFO - initAID - Set OSCDP to STEAM_COMPAT_DATA_PATH '/home/oldnero/.local/share/Steam/steamapps/compatdata/0'
+Sun Apr 14 09:08:17 AM +03 2024 INFO - loadLangFile - Language from command line is 'english'
+Sun Apr 14 09:08:17 AM +03 2024 INFO - loadLangFile - SYSTEMSTLCFGDIR is '/usr/share/steamtinkerlaunch'
+Sun Apr 14 09:08:17 AM +03 2024 INFO - loadLangFile - Command line language 'english' is no file - trying to find its absolute path
+Sun Apr 14 09:08:17 AM +03 2024 INFO - getCurrentCommandline - No Proton in command line arguments 'run /home/oldnero/.local/share/Steam/ubuntu12_32/../bin/d3ddriverquery64.exe -d3d12'
+Sun Apr 14 09:08:17 AM +03 2024 INFO - saveOrgVars - Storing some original variables to restore them later
+Sun Apr 14 09:08:17 AM +03 2024 INFO - emptyVars - Emptied some original variables as they slowdown several system calls when started from steam
+Sun Apr 14 09:08:17 AM +03 2024 INFO - emptyVars - Set $PATH to '/usr/local/bin:/usr/bin:/usr/local/sbin:/var/lib/flatpak/exports/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/oldnero/.local/bin:'
+Sun Apr 14 09:08:18 AM +03 2024 START - ######### Initializing Game Launch 31337 using SteamTinkerLaunch v12.12 #########
+Sun Apr 14 09:08:18 AM +03 2024 INFO - main - Starting with a clean log
+Sun Apr 14 09:08:18 AM +03 2024 INFO - main - Start creating default configs
+Sun Apr 14 09:08:18 AM +03 2024 INFO - createDefaultCfgs - START
+Sun Apr 14 09:08:18 AM +03 2024 INFO - loadLanguage - First load the default language 'english' to make sure all variables are filled
+Sun Apr 14 09:08:18 AM +03 2024 INFO - loadLangFile - Language from command line is 'english'
+Sun Apr 14 09:08:18 AM +03 2024 INFO - loadLangFile - GLOBALSTLLANGDIR is '/usr/share/steamtinkerlaunch/lang'
+Sun Apr 14 09:08:18 AM +03 2024 INFO - loadLangFile - Command line language 'english' is no file - trying to find its absolute path
+Sun Apr 14 09:08:18 AM +03 2024 INFO - loadLangFile - Loading language file from script directory '/home/oldnero/stl/prefix/lang/english.txt'
+Sun Apr 14 09:08:18 AM +03 2024 WARN - updateEditor - 'xdg-open' selected as editor or configured editor not found - trying to find an installed editor installed
+Sun Apr 14 09:08:18 AM +03 2024 INFO - updateEditor - No valid editor found - will fall back to 'xdg-open'.
+Sun Apr 14 09:08:18 AM +03 2024 INFO - loadLanguage - Loading STLLANG from '/home/oldnero/.config/steamtinkerlaunch/global.conf'
+Sun Apr 14 09:08:18 AM +03 2024 INFO - loadLanguage - STLLANG from '/home/oldnero/.config/steamtinkerlaunch/global.conf' is 'english'
+Sun Apr 14 09:08:18 AM +03 2024 INFO - createDefaultCfgs - setSteamPaths:
+Sun Apr 14 09:08:18 AM +03 2024 INFO - setSteamPaths - Reading Steam Path variables from '/dev/shm/steamtinkerlaunch/steampaths.txt'
+Sun Apr 14 09:08:18 AM +03 2024 WARN - updateEditor - 'xdg-open' selected as editor or configured editor not found - trying to find an installed editor installed
+Sun Apr 14 09:08:18 AM +03 2024 INFO - updateEditor - No valid editor found - will fall back to 'xdg-open'.
+Sun Apr 14 09:08:18 AM +03 2024 INFO - getGameOS - Starting game OS detection
+Sun Apr 14 09:08:18 AM +03 2024 WARN - getGameOS - Could not extract the full game binary path from the incoming game launch command, so assuming this is a Windows game!
+Sun Apr 14 09:08:18 AM +03 2024 INFO - setWin - '' determined to be a Windows Game
+Sun Apr 14 09:08:18 AM +03 2024 INFO - createDefaultCfgs - createProtonList:
+Sun Apr 14 09:08:18 AM +03 2024 INFO - createDefaultCfgs - createProtonList end
+Sun Apr 14 09:08:18 AM +03 2024 INFO - listAllSettingsEntries - '/dev/shm/steamtinkerlaunch/setentries.txt' already exists - nothing to do
+Sun Apr 14 09:08:18 AM +03 2024 INFO - createDefaultCfgs - STOP
+Sun Apr 14 09:08:18 AM +03 2024 SKIP - listSteamLibraries - not recreating already available '/dev/shm/steamtinkerlaunch/SteamLibraries.txt'
+Sun Apr 14 09:08:18 AM +03 2024 INFO - setSteamLibraryPaths - STEAM_COMPAT_LIBRARY_PATHS set to '/home/oldnero/.local/share/Steam/steamapps:/mnt/Games/Steam/steamapps'
+Sun Apr 14 09:08:18 AM +03 2024 INFO - setSteamLibraryPaths - STEAM_COMPAT_MOUNTS set to '/mnt/Games/Steam/steamapps/common/Proton - Experimental:/home/oldnero/.local/share/Steam/steamapps/common/Steamworks Shared:/mnt/Games/Steam/steamapps/common/SteamLinuxRuntime_sniper:/mnt/Games/Steam/steamapps/common/SteamLinuxRuntime_soldier'
+Sun Apr 14 09:08:18 AM +03 2024 INFO - setSteamLibraryPaths - STEAM_COMPAT_TOOL_PATHS set to '/home/oldnero/.local/share/Steam/steamapps/common/Steamworks Shared:/mnt/Games/Steam/steamapps/common/SteamLinuxRuntime_sniper:/mnt/Games/Steam/steamapps/common/SteamLinuxRuntime_soldier'
+Sun Apr 14 09:08:18 AM +03 2024 INFO - main - Checking internal dependencies:
+Sun Apr 14 09:08:18 AM +03 2024 INFO - setAwkBin - Found 'gawk' as an 'awk' variant. It should work without any issues, because 'gawk' was tested completely
+Sun Apr 14 09:08:18 AM +03 2024 INFO - checkIntDeps - Result of version check for yad binary '/usr/bin/yad' is '13.0'
+Sun Apr 14 09:08:18 AM +03 2024 INFO - main - Initializing first Proton:
+Sun Apr 14 09:08:18 AM +03 2024 INFO - initOldProtonArr - Creating an initial array with available Proton versions using the file '/dev/shm/steamtinkerlaunch/ProtonCSV.txt' which was created during a previous run
+Sun Apr 14 09:08:18 AM +03 2024 INFO - initFirstProton - Initializing Proton
+Sun Apr 14 09:08:18 AM +03 2024 INFO - initFirstProton - Initial Proton version 'FIRSTUSEPROTON' from '/home/oldnero/.config/steamtinkerlaunch/default_template.conf' is 'proton-9.0-beta16'
+Sun Apr 14 09:08:18 AM +03 2024 INFO - main - Initializing default window resolution
+Sun Apr 14 09:08:18 AM +03 2024 INFO - setInitWinXY - Using '1440x810' from config '/dev/shm/steamtinkerlaunch/defres.txt'
+Sun Apr 14 09:08:18 AM +03 2024 INFO - main - Welcome to SteamTinkerLaunch
+Sun Apr 14 09:08:18 AM +03 2024 INFO - removeEmptyFiles - Removing empty files from '/home/oldnero/.config/steamtinkerlaunch/games/appinfo'
+Sun Apr 14 09:08:18 AM +03 2024 INFO - removeEmptyFiles - Removing empty files from '/home/oldnero/.config/steamtinkerlaunch/games/header'
+Sun Apr 14 09:08:18 AM +03 2024 INFO - main - Checking command line: incoming arguments 'run /home/oldnero/.local/share/Steam/ubuntu12_32/../bin/d3ddriverquery64.exe -d3d12'

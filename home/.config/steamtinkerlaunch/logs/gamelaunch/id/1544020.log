@@ -1,0 +1,19 @@
+ERROR: ld.so: object '/home/oldnero/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/oldnero/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+x86_64-linux-gnu-capsule-capture-libs: warning: Dependencies of libnvidia-pkcs11.so.550.67 not found, ignoring: Missing dependencies: Could not find "libcrypto.so.1.1" in LD_LIBRARY_PATH "/usr/lib32:/usr/lib/libfakeroot:/usr/lib:/mnt/Games/Steam/steamapps/common/The Callisto Protocol", ld.so.cache, DT_RUNPATH or fallback /lib:/usr/lib
+fsync: up and running.
+Setting breakpad minidump AppID = 1544020
+Steam_SetMinidumpSteamID:  Caching Steam ID:  76561198120699930 [API loaded no]
+[2024-04-13 13:24:05.823] [MANGOHUD] [error] [overlay_params.cpp:1003] Failed to read presets file: '/home/oldnero/.config/MangoHud/presets.conf'
+[2024-04-13 13:24:06.322] [MANGOHUD] [error] [nvml.cpp:28] Getting device handle by PCI bus ID failed: Not Found
+[2024-04-13 13:24:06.322] [MANGOHUD] [error] [nvml.cpp:29] Using index 0.
+Fossilize INFO: Overriding serialization path: "/mnt/Games/Steam/steamapps/shadercache/1544020/fozpipelinesv6/steamapprun_pipeline_cache".
+[2024-04-13 13:24:06.633] [MANGOHUD] [error] [nvml.cpp:28] Getting device handle by PCI bus ID failed: Not Found
+[2024-04-13 13:24:06.633] [MANGOHUD] [error] [nvml.cpp:29] Using index 0.
+[2024-04-13 13:24:07.247] [MANGOHUD] [error] [nvctrl.cpp:56] XNVCtrl didn't find the correct display
+[2024-04-13 13:24:08.146] [MANGOHUD] [error] [nvml.cpp:28] Getting device handle by PCI bus ID failed: Not Found
+[2024-04-13 13:24:08.146] [MANGOHUD] [error] [nvml.cpp:29] Using index 0.
+[2024-04-13 13:24:09.277] [MANGOHUD] [error] [overlay_params.cpp:1003] Failed to read presets file: '/home/oldnero/.config/MangoHud/presets.conf'
+[2024-04-13 13:24:09.524] [MANGOHUD] [error] [nvml.cpp:28] Getting device handle by PCI bus ID failed: Not Found
+[2024-04-13 13:24:09.524] [MANGOHUD] [error] [nvml.cpp:29] Using index 0.
+Fossilize INFO: Overriding serialization path: "/mnt/Games/Steam/steamapps/shadercache/1544020/fozpipelinesv6/steamapprun_pipeline_cache".

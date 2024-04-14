@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=The Callisto Protocol
+Comment=Play this game on Steam
+Exec=steam steam://rungameid/1544020
+Icon=/home/oldnero/.config/steamtinkerlaunch/games/header/1544020.jpg
+Terminal=false
+Type=Application
+Categories=Game;

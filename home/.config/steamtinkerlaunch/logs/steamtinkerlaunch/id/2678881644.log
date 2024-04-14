@@ -1,0 +1,226 @@
+Sat Apr 13 14:35:38 +03 2024 INFO - initAID - Set AID from STEAM_COMPAT_APP_ID to '0'
+Sat Apr 13 14:35:38 +03 2024 INFO - initAID - Set AID from STEAM_COMPAT_DATA_PATH '/home/oldnero/.local/share/Steam/steamapps/compatdata/2678881644' to '2678881644', because SteamAppId is '0'
+Sat Apr 13 14:35:38 +03 2024 INFO - initAID - Set OSCDP to STEAM_COMPAT_DATA_PATH '/home/oldnero/.local/share/Steam/steamapps/compatdata/2678881644'
+Sat Apr 13 14:35:38 +03 2024 INFO - loadLangFile - Language from command line is 'english'
+Sat Apr 13 14:35:38 +03 2024 INFO - loadLangFile - SYSTEMSTLCFGDIR is '/usr/share/steamtinkerlaunch'
+Sat Apr 13 14:35:38 +03 2024 INFO - loadLangFile - Command line language 'english' is no file - trying to find its absolute path
+Sat Apr 13 14:35:40 +03 2024 INFO - getCurrentCommandline - No Proton in command line arguments 'waitforexitandrun /mnt/Games/InstalledGames/Horizon Forbidden West - Complete Edition [Steam-Rip] by Ksenia/Horizon Forbidden West Complete Edition/HorizonForbiddenWest.exe'
+Sat Apr 13 14:35:40 +03 2024 INFO - saveOrgVars - Storing some original variables to restore them later
+Sat Apr 13 02:35:40 PM +03 2024 INFO - emptyVars - Emptied some original variables as they slowdown several system calls when started from steam
+Sat Apr 13 02:35:40 PM +03 2024 INFO - emptyVars - Set $PATH to '/usr/local/bin:/usr/bin:/usr/local/sbin:/var/lib/flatpak/exports/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/oldnero/.local/bin:/home/oldnero/.local/bin:'
+Sat Apr 13 02:35:40 PM +03 2024 START - ######### Initializing Game Launch 2678881644 using SteamTinkerLaunch v12.12 #########
+Sat Apr 13 02:35:40 PM +03 2024 INFO - main - Starting with a clean log
+Sat Apr 13 02:35:40 PM +03 2024 INFO - main - Start creating default configs
+Sat Apr 13 02:35:40 PM +03 2024 INFO - createDefaultCfgs - START
+Sat Apr 13 02:35:40 PM +03 2024 INFO - loadLanguage - First load the default language 'english' to make sure all variables are filled
+Sat Apr 13 02:35:40 PM +03 2024 INFO - loadLangFile - Language from command line is 'english'
+Sat Apr 13 02:35:40 PM +03 2024 INFO - loadLangFile - GLOBALSTLLANGDIR is '/usr/share/steamtinkerlaunch/lang'
+Sat Apr 13 02:35:40 PM +03 2024 INFO - loadLangFile - Command line language 'english' is no file - trying to find its absolute path
+Sat Apr 13 02:35:40 PM +03 2024 INFO - loadLangFile - Loading language file from script directory '/home/oldnero/stl/prefix/lang/english.txt'
+Sat Apr 13 02:35:40 PM +03 2024 WARN - updateEditor - 'xdg-open' selected as editor or configured editor not found - trying to find an installed editor installed
+Sat Apr 13 02:35:40 PM +03 2024 INFO - updateEditor - No valid editor found - will fall back to 'xdg-open'.
+Sat Apr 13 02:35:40 PM +03 2024 INFO - loadLanguage - Loading STLLANG from '/home/oldnero/.config/steamtinkerlaunch/global.conf'
+Sat Apr 13 02:35:40 PM +03 2024 INFO - loadLanguage - STLLANG from '/home/oldnero/.config/steamtinkerlaunch/global.conf' is 'english'
+Sat Apr 13 02:35:40 PM +03 2024 INFO - createDefaultCfgs - setSteamPaths:
+Sat Apr 13 02:35:40 PM +03 2024 INFO - setSteamPaths - Reading Steam Path variables from '/dev/shm/steamtinkerlaunch/steampaths.txt'
+Sat Apr 13 02:35:40 PM +03 2024 WARN - updateEditor - 'xdg-open' selected as editor or configured editor not found - trying to find an installed editor installed
+Sat Apr 13 02:35:40 PM +03 2024 INFO - updateEditor - No valid editor found - will fall back to 'xdg-open'.
+Sat Apr 13 02:35:40 PM +03 2024 INFO - getGameOS - Starting game OS detection
+Sat Apr 13 02:35:40 PM +03 2024 INFO - getGameOS - Making some checks on '/mnt/Games/InstalledGames/Horizon Forbidden West - Complete Edition [Steam-Rip] by Ksenia/Horizon Forbidden West Complete Edition/HorizonForbiddenWest.exe' to determine the OS version of the game
+Sat Apr 13 02:35:40 PM +03 2024 INFO - getGameOS - Looks like this is a Windows game!
+Sat Apr 13 02:35:40 PM +03 2024 INFO - setWin - 'HorizonForbiddenWest' determined to be a Windows Game
+Sat Apr 13 02:35:40 PM +03 2024 INFO - createDefaultCfgs - createProtonList:
+Sat Apr 13 02:35:40 PM +03 2024 INFO - createDefaultCfgs - createProtonList end
+Sat Apr 13 02:35:40 PM +03 2024 INFO - listAllSettingsEntries - '/dev/shm/steamtinkerlaunch/setentries.txt' already exists - nothing to do
+Sat Apr 13 02:35:40 PM +03 2024 INFO - createDefaultCfgs - STOP
+Sat Apr 13 02:35:40 PM +03 2024 SKIP - listSteamLibraries - not recreating already available '/dev/shm/steamtinkerlaunch/SteamLibraries.txt'
+Sat Apr 13 02:35:40 PM +03 2024 INFO - setSteamLibraryPaths - STEAM_COMPAT_LIBRARY_PATHS set to '/home/oldnero/.local/share/Steam/steamapps:/mnt/Games/Steam/steamapps'
+Sat Apr 13 02:35:40 PM +03 2024 INFO - setSteamLibraryPaths - STEAM_COMPAT_MOUNTS set to '/home/oldnero/.local/share/Steam/steamapps/common/Steamworks Shared:/mnt/Games/Steam/steamapps/common/SteamLinuxRuntime_sniper:/mnt/Games/Steam/steamapps/common/SteamLinuxRuntime_soldier'
+Sat Apr 13 02:35:40 PM +03 2024 INFO - setSteamLibraryPaths - STEAM_COMPAT_TOOL_PATHS set to '/home/oldnero/.local/share/Steam/steamapps/common/Steamworks Shared:/mnt/Games/Steam/steamapps/common/SteamLinuxRuntime_sniper:/mnt/Games/Steam/steamapps/common/SteamLinuxRuntime_soldier'
+Sat Apr 13 02:35:40 PM +03 2024 INFO - main - Checking internal dependencies:
+Sat Apr 13 02:35:40 PM +03 2024 INFO - setAwkBin - Found 'gawk' as an 'awk' variant. It should work without any issues, because 'gawk' was tested completely
+Sat Apr 13 02:35:41 PM +03 2024 INFO - checkIntDeps - Result of version check for yad binary '/usr/bin/yad' is '13.0'
+Sat Apr 13 02:35:41 PM +03 2024 INFO - main - Initializing first Proton:
+Sat Apr 13 02:35:41 PM +03 2024 INFO - initOldProtonArr - Creating an initial array with available Proton versions using the file '/dev/shm/steamtinkerlaunch/ProtonCSV.txt' which was created during a previous run
+Sat Apr 13 02:35:41 PM +03 2024 INFO - initFirstProton - Initializing Proton
+Sat Apr 13 02:35:41 PM +03 2024 INFO - initFirstProton - Initial Proton version 'FIRSTUSEPROTON' from '/home/oldnero/.config/steamtinkerlaunch/default_template.conf' is 'proton-9.0-beta16'
+Sat Apr 13 02:35:41 PM +03 2024 INFO - main - Initializing default window resolution
+Sat Apr 13 02:35:41 PM +03 2024 INFO - setInitWinXY - Using '1440x810' from config '/dev/shm/steamtinkerlaunch/defres.txt'
+Sat Apr 13 02:35:41 PM +03 2024 INFO - main - Welcome to SteamTinkerLaunch
+Sat Apr 13 02:35:41 PM +03 2024 INFO - removeEmptyFiles - Removing empty files from '/home/oldnero/.config/steamtinkerlaunch/games/appinfo'
+Sat Apr 13 02:35:41 PM +03 2024 INFO - removeEmptyFiles - Removing empty files from '/home/oldnero/.config/steamtinkerlaunch/games/header'
+Sat Apr 13 02:35:41 PM +03 2024 INFO - main - Checking command line: incoming arguments 'waitforexitandrun /mnt/Games/InstalledGames/Horizon Forbidden West - Complete Edition [Steam-Rip] by Ksenia/Horizon Forbidden West Complete Edition/HorizonForbiddenWest.exe'
+Sat Apr 13 02:35:41 PM +03 2024 SKIP - getGameOS - ISGAME is already set to '2' - nothing to determine
+Sat Apr 13 02:35:41 PM +03 2024 INFO - linkLog - Symlink '/home/oldnero/.config/steamtinkerlaunch/logs/steamtinkerlaunch/title/HorizonForbiddenWest.log' already exists
+Sat Apr 13 02:35:41 PM +03 2024 INFO - getAppInfoData - Retrieving data for 'name' from '/home/oldnero/.config/steamtinkerlaunch/games/appinfo/2678881644.bin'
+Sat Apr 13 02:35:41 PM +03 2024 WARN - updateEditor - 'xdg-open' selected as editor or configured editor not found - trying to find an installed editor installed
+Sat Apr 13 02:35:41 PM +03 2024 INFO - updateEditor - No valid editor found - will fall back to 'xdg-open'.
+Sat Apr 13 02:35:41 PM +03 2024 START - ######### Game Launch: HorizonForbiddenWest (2678881644) #########
+Sat Apr 13 02:35:41 PM +03 2024 INFO - dlCheck - Downloading picture for game '2678881644'
+Sat Apr 13 02:35:41 PM +03 2024 INFO - notiShow - Message 'Downloading '/home/oldnero/.config/steamtinkerlaunch/games/header/2678881644.jpg'' should go to StatusWindow
+Sat Apr 13 02:35:41 PM +03 2024 INFO - dlCheck - 'wget -q --show-progress https://steamcdn-a.akamaihd.net/steam/apps/2678881644/header.jpg -O /home/oldnero/.config/steamtinkerlaunch/games/header/2678881644.jpg'
+Sat Apr 13 02:35:42 PM +03 2024 INFO - prepareLaunch - Game launch args '/mnt/Games/InstalledGames/Horizon Forbidden West - Complete Edition [Steam-Rip] by Ksenia/Horizon Forbidden West Complete Edition/HorizonForbiddenWest.exe'
+Sat Apr 13 02:35:42 PM +03 2024 INFO - prepareLaunch - Gamedir '/mnt/Games/InstalledGames/Horizon Forbidden West - Complete Edition [Steam-Rip] by Ksenia/Horizon Forbidden West Complete Edition'
+Sat Apr 13 02:35:42 PM +03 2024 INFO - prepareLaunch - Proton wineprefix '/home/oldnero/.local/share/Steam/steamapps/compatdata/2678881644/pfx'
+Sat Apr 13 02:35:42 PM +03 2024 INFO - prepareLaunch - No INGCMD but valid ORGGCMD - May be Non-Steam game
+Sat Apr 13 02:35:42 PM +03 2024 INFO - prepareLaunch -------------------
+Sat Apr 13 02:35:42 PM +03 2024 INFO - prepareLaunch - CreateGameCfg:
+Sat Apr 13 02:35:42 PM +03 2024 SKIP - updateConfigFile - Config file '/home/oldnero/.config/steamtinkerlaunch/gamecfgs/id/2678881644.conf' already at version 'v12.12'
+Sat Apr 13 02:35:42 PM +03 2024 INFO - linkGameCfg - Symlink '/home/oldnero/.config/steamtinkerlaunch/gamecfgs/title/HorizonForbiddenWest.conf' already exists
+Sat Apr 13 02:35:42 PM +03 2024 INFO - prepareLaunch - First LoadCfg: /home/oldnero/.config/steamtinkerlaunch/gamecfgs/id/2678881644.conf
+Sat Apr 13 02:35:42 PM +03 2024 INFO - loadCfg - '/home/oldnero/.config/steamtinkerlaunch/gamecfgs/id/2678881644.conf' START
+Sat Apr 13 02:35:42 PM +03 2024 INFO - loadCfg - Loading game config '/home/oldnero/.config/steamtinkerlaunch/gamecfgs/id/2678881644.conf'
+Sat Apr 13 02:35:42 PM +03 2024 INFO - migrateCfgOption - File '/home/oldnero/.config/steamtinkerlaunch/dxvk/2678881644.conf' does not exist - nothing to do
+Sat Apr 13 02:35:42 PM +03 2024 INFO - loadCfg - '/home/oldnero/.config/steamtinkerlaunch/gamecfgs/id/2678881644.conf' STOP
+Sat Apr 13 02:35:43 PM +03 2024 SKIP - autoBumpReShade - '5.4.2' is the latest version of 'ReShade' - not updating
+Sat Apr 13 02:35:43 PM +03 2024 INFO - prepareLaunch - Initial Proton version from the game config: 'proton-9.0-beta16'
+Sat Apr 13 02:35:43 PM +03 2024 INFO - prepareLaunch - Initializing internal Proton Vars for 'proton-9.0-beta16' using setNewProtVars
+Sat Apr 13 02:35:43 PM +03 2024 INFO - setNewProtVars - Setting new Proton Variables based on '/mnt/Games/Steam/steamapps/common/Proton 9.0 (Beta)/proton'
+Sat Apr 13 02:35:43 PM +03 2024 INFO - setNewProtVars - Continuing with RUNPROTON='/mnt/Games/Steam/steamapps/common/Proton 9.0 (Beta)/proton'
+Sat Apr 13 02:35:43 PM +03 2024 INFO - setRunWineServer - Initiated from 'setNewProtVars'
+Sat Apr 13 02:35:43 PM +03 2024 INFO - setRunWineServer - Set the wine binary for proton in path '/mnt/Games/Steam/steamapps/common/Proton 9.0 (Beta)/proton'
+Sat Apr 13 02:35:43 PM +03 2024 INFO - setRunWineServer - to '/mnt/Games/Steam/steamapps/common/Proton 9.0 (Beta)/files/bin/wine'
+Sat Apr 13 02:35:43 PM +03 2024 INFO - setRunWineServer - and wineserver to '/mnt/Games/Steam/steamapps/common/Proton 9.0 (Beta)/files/bin/wineserver'
+Sat Apr 13 02:35:43 PM +03 2024 INFO - prepareLaunch - OpenTrayIcon:
+Sat Apr 13 02:35:43 PM +03 2024 INFO - autoCollectionSettings - Searching collections for game '2678881644' in '/home/oldnero/.local/share/Steam/userdata/160434202/7/remote/sharedconfig.vdf'
+Sat Apr 13 02:35:43 PM +03 2024 SKIP - autoCollectionSettings - Global Config '' not found - skipping
+Sat Apr 13 02:35:43 PM +03 2024 SKIP - autoCollectionSettings - Collections Directory Config '' not found - skipping
+Sat Apr 13 02:35:43 PM +03 2024 INFO - setFullGameExePath - User did not enable 'CUSTOMCMDRESHADE' - Using the game's exe directroy as the ReShade installation directory
+Sat Apr 13 02:35:43 PM +03 2024 INFO - setShaderDest - Determining Shader destination directory SHADDESTDIR
+Sat Apr 13 02:35:43 PM +03 2024 INFO - setShaderDest - Using variable ABSGAMEEXEPATH for Shader destination directory '/mnt/Games/InstalledGames/Horizon Forbidden West - Complete Edition [Steam-Rip] by Ksenia/Horizon Forbidden West Complete Edition'
+Sat Apr 13 02:35:43 PM +03 2024 INFO - setShaderDest - Using Shader destination directory '/mnt/Games/InstalledGames/Horizon Forbidden West - Complete Edition [Steam-Rip] by Ksenia/Horizon Forbidden West Complete Edition'
+Sat Apr 13 02:35:43 PM +03 2024 INFO - setShaderDest - Shader destination directory is '/mnt/Games/InstalledGames/Horizon Forbidden West - Complete Edition [Steam-Rip] by Ksenia/Horizon Forbidden West Complete Edition'
+Sat Apr 13 02:35:43 PM +03 2024 INFO - setFullGameExePath - Using SHADDESTDIR '/mnt/Games/InstalledGames/Horizon Forbidden West - Complete Edition [Steam-Rip] by Ksenia/Horizon Forbidden West Complete Edition' for 'SHADDESTDIR'
+Sat Apr 13 02:35:43 PM +03 2024 INFO - openTrayIcon - Opening trayIcon:
+Sat Apr 13 02:35:43 PM +03 2024 INFO - prepareLaunch - sortGameArgs:
+Sat Apr 13 02:35:43 PM +03 2024 SKIP - sortGameArgs - Sorting the game arguments is disabled
+Sat Apr 13 02:35:43 PM +03 2024 INFO - prepareLaunch - AskSettings:
+Sat Apr 13 02:35:43 PM +03 2024 INFO - askSettings - Using game specific requester timeout '2'
+Sat Apr 13 02:35:43 PM +03 2024 INFO - askSettings - Opening Requester with timeout '2'
+Sat Apr 13 02:35:43 PM +03 2024 INFO - getGameTextFiles - Searching for at least one editable textfile in '/home/oldnero/.local/share/Steam/steamapps/compatdata/2678881644/pfx/drive_c/users/steamuser'
+Sat Apr 13 02:35:43 PM +03 2024 INFO - getAppInfoData - Retrieving data for 'name' from '/home/oldnero/.config/steamtinkerlaunch/games/appinfo/2678881644.bin'
+Sat Apr 13 02:35:43 PM +03 2024 INFO - getRes - Detected screen resolution '1920x1080'
+Sat Apr 13 02:35:44 PM +03 2024 INFO - pollWinRes - Using GEOM '--geometry=1440x810+0+0' from '/home/oldnero/.config/steamtinkerlaunch/guicfgs/1920x1080/2678881644/SteamTinkerLaunch-OpenSettings.conf'
+Sat Apr 13 02:35:44 PM +03 2024 INFO - updateWinRes - Starting resolution-poll for '/home/oldnero/.config/steamtinkerlaunch/guicfgs/1920x1080/2678881644/SteamTinkerLaunch-OpenSettings.conf' with incoming '1440x810'
+Sat Apr 13 02:35:44 PM +03 2024 INFO - setShowPic - Using hero image found in Steam Grid folder - '/home/oldnero/.local/share/Steam/userdata/160434202/config/grid/2678881644_hero.jpg'
+Sat Apr 13 02:35:44 PM +03 2024 INFO - updateWinRes - Waiting for Window 'SteamTinkerLaunch-OpenSettings'
+Sat Apr 13 02:35:44 PM +03 2024 WARN - prepareSteamDeckCompatInfo - Can't get Steam Deck compatibility information because 'jq' is not installed
+Sat Apr 13 02:35:44 PM +03 2024 INFO - askSettings - Could not retrieve Steam Deck compatibility rating, defaulting to Unknown - Maybe 'jq' is missing or we are offline?
+Sat Apr 13 02:35:44 PM +03 2024 INFO - askSettings - Steam Deck compatibility rating string is '<b>Steam Deck Compatibility:</b> '
+Sat Apr 13 02:35:44 PM +03 2024 INFO - askSettings - Preparing to show Wait Requester
+Sat Apr 13 02:35:45 PM +03 2024 INFO - updateWinRes - Waiting for Window 'SteamTinkerLaunch-OpenSettings'
+Sat Apr 13 02:35:46 PM +03 2024 INFO - updateWinRes - Waiting for Window 'SteamTinkerLaunch-OpenSettings'
+Sat Apr 13 02:35:47 PM +03 2024 SKIP - updateWinRes - Timeout waiting for Window 'SteamTinkerLaunch-OpenSettings'
+Sat Apr 13 02:35:47 PM +03 2024 INFO - askSettings - TIMEOUT - Starting game without opening the Settings Menu
+Sat Apr 13 02:35:47 PM +03 2024 INFO - prepareLaunch - Second LoadCfg after menus: /home/oldnero/.config/steamtinkerlaunch/gamecfgs/id/2678881644.conf
+Sat Apr 13 02:35:47 PM +03 2024 INFO - loadCfg - '/home/oldnero/.config/steamtinkerlaunch/gamecfgs/id/2678881644.conf' START
+Sat Apr 13 02:35:47 PM +03 2024 INFO - loadCfg - Loading game config '/home/oldnero/.config/steamtinkerlaunch/gamecfgs/id/2678881644.conf'
+Sat Apr 13 02:35:48 PM +03 2024 INFO - migrateCfgOption - File '/home/oldnero/.config/steamtinkerlaunch/dxvk/2678881644.conf' does not exist - nothing to do
+Sat Apr 13 02:35:48 PM +03 2024 INFO - loadCfg - '/home/oldnero/.config/steamtinkerlaunch/gamecfgs/id/2678881644.conf' STOP
+Sat Apr 13 02:35:48 PM +03 2024 INFO - setDxvkVars - Exporting variable 'DXVK_FRAME_RATE=none' to limit game framerate
+Sat Apr 13 02:35:48 PM +03 2024 INFO - autoCollectionSettings - Searching collections for game '2678881644' in '/home/oldnero/.local/share/Steam/userdata/160434202/7/remote/sharedconfig.vdf'
+Sat Apr 13 02:35:48 PM +03 2024 SKIP - autoCollectionSettings - Global Config '' not found - skipping
+Sat Apr 13 02:35:48 PM +03 2024 SKIP - autoCollectionSettings - Collections Directory Config '' not found - skipping
+Sat Apr 13 02:35:48 PM +03 2024 INFO - prepareLaunch - sortGameArgs again, in case something changed above:
+Sat Apr 13 02:35:48 PM +03 2024 SKIP - sortGameArgs - Sorting the game arguments is disabled
+Sat Apr 13 02:35:48 PM +03 2024 INFO - prepareLaunch - symlinkSteamUser:
+Sat Apr 13 02:35:48 PM +03 2024 SKIP - symlinkSteamUser - Symlinking steamuser is disabled - Checking if a symlink needs to be reverted
+Sat Apr 13 02:35:48 PM +03 2024 SKIP - symlinkSteamUser - '/home/oldnero/.local/share/Steam/steamapps/compatdata/2678881644/pfx/drive_c/users/steamuser' is no symlink - nothing to do
+Sat Apr 13 02:35:48 PM +03 2024 INFO - prepareLaunch - restoreSteamUser:
+Sat Apr 13 02:35:48 PM +03 2024 INFO - restoreSteamUser - Using configured value 'none' for RESTORESTEAMUSER
+Sat Apr 13 02:35:48 PM +03 2024 INFO - restoreSteamUser - Restoration of steamuser data is disabled with RESTORESTEAMUSER being 'none
+Sat Apr 13 02:35:48 PM +03 2024 INFO - prepareLaunch - prepareProton:
+Sat Apr 13 02:35:48 PM +03 2024 INFO - prepareLaunch - setLinGameVals :
+Sat Apr 13 02:35:48 PM +03 2024 INFO - prepareLaunch - CheckTweakLaunch:
+Sat Apr 13 02:35:48 PM +03 2024 INFO - prepareLaunch - checkXliveless:
+Sat Apr 13 02:35:48 PM +03 2024 INFO - prepareLaunch - chooseWinetricks:
+Sat Apr 13 02:35:48 PM +03 2024 INFO - prepareLaunch - checkExtDeps:
+Sat Apr 13 02:35:48 PM +03 2024 INFO - prepareLaunch - checkExtDeps done
+Sat Apr 13 02:35:48 PM +03 2024 INFO - prepareLaunch - setWineVars:
+Sat Apr 13 02:35:48 PM +03 2024 INFO - prepareLaunch - CheckWinetricksLaunch:
+Sat Apr 13 02:35:48 PM +03 2024 INFO - prepareLaunch - CheckWineCfgLaunch:
+Sat Apr 13 02:35:48 PM +03 2024 WARN - checkWineCfgLaunch - Function was called but RUN_WINECFG ('0') was not enabled - skipping
+Sat Apr 13 02:35:48 PM +03 2024 INFO - prepareLaunch - CustomRegs:
+Sat Apr 13 02:35:48 PM +03 2024 INFO - prepareLaunch - TogWindows:
+Sat Apr 13 02:35:48 PM +03 2024 INFO - prepareLaunch - StateSteamWebHelper:
+Sat Apr 13 02:35:48 PM +03 2024 INFO - prepareLaunch - InstallReshade:
+Sat Apr 13 02:35:48 PM +03 2024 INFO - prepareLaunch - installDepth3DReshade:
+Sat Apr 13 02:35:48 PM +03 2024 INFO - prepareLaunch - checkReshade:
+Sat Apr 13 02:35:48 PM +03 2024 INFO - autoCollectionSettings - Searching collections for game '2678881644' in '/home/oldnero/.local/share/Steam/userdata/160434202/7/remote/sharedconfig.vdf'
+Sat Apr 13 02:35:48 PM +03 2024 SKIP - autoCollectionSettings - Global Config '' not found - skipping
+Sat Apr 13 02:35:48 PM +03 2024 SKIP - autoCollectionSettings - Collections Directory Config '' not found - skipping
+Sat Apr 13 02:35:48 PM +03 2024 INFO - setFullGameExePath - User did not enable 'CUSTOMCMDRESHADE' - Using the game's exe directroy as the ReShade installation directory
+Sat Apr 13 02:35:48 PM +03 2024 INFO - setFullGameExePath - Using SHADDESTDIR '/mnt/Games/InstalledGames/Horizon Forbidden West - Complete Edition [Steam-Rip] by Ksenia/Horizon Forbidden West Complete Edition' for 'SHADDESTDIR'
+Sat Apr 13 02:35:48 PM +03 2024 INFO - prepareLaunch - useSpecialK:
+Sat Apr 13 02:35:48 PM +03 2024 INFO - setFullGameExePath - User did not enable 'CUSTOMCMDRESHADE' - Using the game's exe directroy as the ReShade installation directory
+Sat Apr 13 02:35:48 PM +03 2024 INFO - setFullGameExePath - Using SHADDESTDIR '/mnt/Games/InstalledGames/Horizon Forbidden West - Complete Edition [Steam-Rip] by Ksenia/Horizon Forbidden West Complete Edition' for 'SPEKDDIR'
+Sat Apr 13 02:35:48 PM +03 2024 INFO - prepareLaunch - configureGeoElf:
+Sat Apr 13 02:35:48 PM +03 2024 INFO - setFullGameExePath - User did not enable 'CUSTOMCMDRESHADE' - Using the game's exe directroy as the ReShade installation directory
+Sat Apr 13 02:35:48 PM +03 2024 INFO - setFullGameExePath - Using SHADDESTDIR '/mnt/Games/InstalledGames/Horizon Forbidden West - Complete Edition [Steam-Rip] by Ksenia/Horizon Forbidden West Complete Edition' for 'GEOELFDDIR'
+Sat Apr 13 02:35:48 PM +03 2024 INFO - prepareLaunch - ChooseShaders:
+Sat Apr 13 02:35:48 PM +03 2024 INFO - prepareLaunch - UseNyrnaz:
+Sat Apr 13 02:35:48 PM +03 2024 INFO - prepareLaunch - UseReplay:
+Sat Apr 13 02:35:48 PM +03 2024 INFO - prepareLaunch - CheckSBSVRLaunch:
+Sat Apr 13 02:35:48 PM +03 2024 INFO - prepareLaunch - checkMO2:
+Sat Apr 13 02:35:48 PM +03 2024 INFO - prepareLaunch - setNewRes:
+Sat Apr 13 02:35:48 PM +03 2024 INFO - getRes - Detected screen resolution '1920x1080'
+Sat Apr 13 02:35:48 PM +03 2024 INFO - prepareLaunch - customUserScriptStart:
+Sat Apr 13 02:35:48 PM +03 2024 INFO - prepareLaunch - redirectSCDP:
+Sat Apr 13 02:35:48 PM +03 2024 INFO - redirectSCDP - Using Proton version with minor version fix '9.0-beta16' for compatdata directory name
+Sat Apr 13 02:35:48 PM +03 2024 INFO - redirectSCDP - Using regular compatdata '/home/oldnero/.local/share/Steam/steamapps/compatdata/2678881644'
+Sat Apr 13 02:35:48 PM +03 2024 INFO - prepareLaunch - checkIGCSInjector:
+Sat Apr 13 02:35:48 PM +03 2024 INFO - prepareLaunch - checkOpenVRFSR:
+Sat Apr 13 02:35:48 PM +03 2024 INFO - prepareLaunch - CheckFWS:
+Sat Apr 13 02:35:48 PM +03 2024 INFO - loadCustomVars - Empty global config '/home/oldnero/.config/steamtinkerlaunch/gamecfgs/customvars/global-custom-vars.conf' for user defined custom variables not loaded
+Sat Apr 13 02:35:48 PM +03 2024 INFO - loadCustomVars - Empty game-specific config '/home/oldnero/.config/steamtinkerlaunch/gamecfgs/customvars/2678881644.conf' for user defined custom variables not loaded
+Sat Apr 13 02:35:48 PM +03 2024 INFO - prepareLaunch - CheckCustomLaunch:
+Sat Apr 13 02:35:48 PM +03 2024 INFO - checkCustomLaunch - USECUSTOMCMD is set to '1' - trying to start custom program '/mnt/Games/InstalledGames/Horizon Forbidden West - Complete Edition [Steam-Rip] by Ksenia/Horizon Forbidden West Complete Edition/Trainer.exe'
+Sat Apr 13 02:35:48 PM +03 2024 INFO - checkCustomLaunch - FORK_CUSTOMCMD is set to 1 - forking the custom program in background and continue
+Sat Apr 13 02:35:48 PM +03 2024 INFO - launchCustomProg - '/mnt/Games/InstalledGames/Horizon Forbidden West - Complete Edition [Steam-Rip] by Ksenia/Horizon Forbidden West Complete Edition/Trainer.exe' not found - searching in gamedir
+Sat Apr 13 02:35:48 PM +03 2024 INFO - launchCustomProg - '/mnt/Games/InstalledGames/Horizon Forbidden West - Complete Edition [Steam-Rip] by Ksenia/Horizon Forbidden West Complete Edition/Trainer.exe' also not in '/mnt/Games/InstalledGames/Horizon Forbidden West - Complete Edition [Steam-Rip] by Ksenia/Horizon Forbidden West Complete Edition//mnt/Games/InstalledGames/Horizon Forbidden West - Complete Edition [Steam-Rip] by Ksenia/Horizon Forbidden West Complete Edition/Trainer.exe' - checking if absolute path was provided
+Sat Apr 13 02:35:48 PM +03 2024 INFO - launchCustomProg - '/mnt/Games/InstalledGames/Horizon Forbidden West - Complete Edition [Steam-Rip] by Ksenia/Horizon Forbidden West Complete Edition/Trainer.exe' is absolute path
+Sat Apr 13 02:35:48 PM +03 2024 INFO - launchCustomProg - Changed pwd into the custom directory '/mnt/Games/InstalledGames/Horizon Forbidden West - Complete Edition [Steam-Rip] by Ksenia/Horizon Forbidden West Complete Edition'
+Sat Apr 13 02:35:48 PM +03 2024 INFO - launchCustomProg - '/mnt/Games/InstalledGames/Horizon Forbidden West - Complete Edition [Steam-Rip] by Ksenia/Horizon Forbidden West Complete Edition/Trainer.exe' seems to be a MS Windows program - starting through proton
+Sat Apr 13 02:35:48 PM +03 2024 INFO - launchCustomProg - '/mnt/Games/InstalledGames/Horizon Forbidden West - Complete Edition [Steam-Rip] by Ksenia/Horizon Forbidden West Complete Edition/Trainer.exe' seems to be a MS gui program - starting regularly
+Sat Apr 13 02:35:48 PM +03 2024 INFO - launchCustomProg - FORK_CUSTOMCMD is set to 1 - forking the custom program in background and continue
+Sat Apr 13 02:35:48 PM +03 2024 INFO - setRunProtonFromUseProton - Setting ORUNPROTON to '/mnt/Games/Steam/steamapps/common/Proton 9.0 (Beta)/proton'
+Sat Apr 13 02:35:48 PM +03 2024 SKIP - setRunProtonFromUseProton - RUNPROTON '/mnt/Games/Steam/steamapps/common/Proton 9.0 (Beta)/proton' hasn't changed
+Sat Apr 13 02:35:48 PM +03 2024 INFO - extProtonRun - Continuing with RUNPROTON='/mnt/Games/Steam/steamapps/common/Proton 9.0 (Beta)/proton'
+Sat Apr 13 02:35:48 PM +03 2024 INFO - extProtonRun - No external program args here it seems
+Sat Apr 13 02:35:48 PM +03 2024 INFO - extProtonRun - Starting '/mnt/Games/InstalledGames/Horizon Forbidden West - Complete Edition [Steam-Rip] by Ksenia/Horizon Forbidden West Complete Edition/Trainer.exe' forked into the background
+Sat Apr 13 02:35:48 PM +03 2024 INFO - restoreOrgVars - Restoring previously cleared Variables
+Sat Apr 13 02:35:48 PM +03 2024 INFO - launchCustomProg - Changing pwd into previous directory
+Sat Apr 13 02:35:48 PM +03 2024 INFO - prepareLaunch - checkUUUPatchLaunch:
+Sat Apr 13 02:35:48 PM +03 2024 INFO - prepareLaunch - CheckStraceLaunch:
+Sat Apr 13 02:35:48 PM +03 2024 INFO - prepareLaunch - CheckNetMonLaunch:
+Sat Apr 13 02:35:48 PM +03 2024 INFO - prepareLaunch - checkWDIB:
+Sat Apr 13 02:35:48 PM +03 2024 INFO - prepareLaunch - checkPulse:
+Sat Apr 13 02:35:48 PM +03 2024 INFO - prepareLaunch - checkSteamAppIDFile:
+Sat Apr 13 02:35:48 PM +03 2024 INFO - checkSteamAppIDFile - STEAMAPPIDFILE is disabled and there's no '/mnt/Games/InstalledGames/Horizon Forbidden West - Complete Edition [Steam-Rip] by Ksenia/Horizon Forbidden West Complete Edition/steam_appid.txt' - nothing to do
+Sat Apr 13 02:35:48 PM +03 2024 INFO - prepareLaunch - setCompatDataTitle:
+Sat Apr 13 02:35:48 PM +03 2024 INFO - setCompatDataTitle - Symlink /home/oldnero/.config/steamtinkerlaunch/compatdata/HorizonForbiddenWest already exists
+Sat Apr 13 02:35:48 PM +03 2024 INFO - setCompatDataTitle - Symlink '/home/oldnero/.config/steamtinkerlaunch/compatdata/HorizonForbiddenWest' already points to the correct directory '/home/oldnero/.local/share/Steam/steamapps/compatdata/2678881644'
+Sat Apr 13 02:35:48 PM +03 2024 SKIP - delayGameForCustomLaunch - Nothing to do
+Sat Apr 13 02:35:48 PM +03 2024 INFO - prepareLaunch - launchSteamGame:
+Sat Apr 13 02:35:48 PM +03 2024 INFO - launchSteamGame - Initial game command is ''
+Sat Apr 13 02:35:48 PM +03 2024 INFO - gameArgs - Game doesn't use any command line arguments
+Sat Apr 13 02:35:48 PM +03 2024 INFO - launchSteamGame - Preparing proton command
+Sat Apr 13 02:35:48 PM +03 2024 INFO - setProtonCmd - Proton override enabled, so checking if it needs updated
+Sat Apr 13 02:35:48 PM +03 2024 INFO - setRunProtonFromUseProton - Setting ORUNPROTON to '/mnt/Games/Steam/steamapps/common/Proton 9.0 (Beta)/proton'
+Sat Apr 13 02:35:48 PM +03 2024 SKIP - setRunProtonFromUseProton - RUNPROTON '/mnt/Games/Steam/steamapps/common/Proton 9.0 (Beta)/proton' hasn't changed
+Sat Apr 13 02:35:48 PM +03 2024 SKIP - fixSymlinks - Fixing Symlinks is not enabled
+Sat Apr 13 02:35:48 PM +03 2024 SKIP - unSymlink - Unsymlinking is not enabled
+Sat Apr 13 02:35:48 PM +03 2024 INFO - setProtonCmd - Prepending Proton 'proton-9.0-beta16' (='/mnt/Games/Steam/steamapps/common/Proton 9.0 (Beta)/proton') to the command line '/mnt/Games/InstalledGames/Horizon Forbidden West - Complete Edition [Steam-Rip] by Ksenia/Horizon Forbidden West Complete Edition/HorizonForbiddenWest.exe'
+Sat Apr 13 02:35:48 PM +03 2024 INFO - setProtonCmd - UPDATED game start command is: /mnt/Games/InstalledGames/Horizon Forbidden West - Complete Edition [Steam-Rip] by Ksenia/Horizon Forbidden West Complete Edition/HorizonForbiddenWest.exe
+Sat Apr 13 02:35:48 PM +03 2024 INFO - setProtonCmd - Starting 'HorizonForbiddenWest (2678881644)' with Proton: 'proton-9.0-beta16'
+Sat Apr 13 02:35:48 PM +03 2024 INFO - launchSteamGame - Original incoming start command: ''
+Sat Apr 13 02:35:48 PM +03 2024 INFO - launchSteamGame - Final outgoing start command: '/mnt/Games/Steam/steamapps/common/Proton 9.0 (Beta)/proton waitforexitandrun /mnt/Games/InstalledGames/Horizon Forbidden West - Complete Edition [Steam-Rip] by Ksenia/Horizon Forbidden West Complete Edition/HorizonForbiddenWest.exe'
+Sat Apr 13 02:35:48 PM +03 2024 INFO - loadCfg - '/home/oldnero/.config/steamtinkerlaunch/meta/id/general/2678881644.conf' START
+Sat Apr 13 02:35:48 PM +03 2024 INFO - loadCfg - '/home/oldnero/.config/steamtinkerlaunch/meta/id/general/2678881644.conf' STOP
+Sat Apr 13 02:35:48 PM +03 2024 INFO - startGame - Getting the Game Window name:
+Sat Apr 13 02:35:48 PM +03 2024 SKIP - getGameWindowName - Already have the gamewindow name: 'Horizon Forbidden West™ Complete Edition v1.0.43.0' - skipping
+Sat Apr 13 02:35:48 PM +03 2024 INFO - startGame - Full start command is '/mnt/Games/Steam/steamapps/common/Proton 9.0 (Beta)/proton waitforexitandrun /mnt/Games/InstalledGames/Horizon Forbidden West - Complete Edition [Steam-Rip] by Ksenia/Horizon Forbidden West Complete Edition/HorizonForbiddenWest.exe'
+Sat Apr 13 02:35:48 PM +03 2024 INFO - startGame - ## ORIGINAL INCOMING LAUNCH COMMAND: ''
+Sat Apr 13 02:35:48 PM +03 2024 INFO - startGame - ## STL LAUNCH COMMAND: '/mnt/Games/Steam/steamapps/common/Proton 9.0 (Beta)/proton waitforexitandrun /mnt/Games/InstalledGames/Horizon Forbidden West - Complete Edition [Steam-Rip] by Ksenia/Horizon Forbidden West Complete Edition/HorizonForbiddenWest.exe'
+Sat Apr 13 02:35:48 PM +03 2024 INFO - startGame - ## GAMESTART HERE ###
+Sat Apr 13 02:35:48 PM +03 2024 INFO - restoreOrgVars - Restoring previously cleared Variables

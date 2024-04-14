@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=HorizonForbiddenWest
+Comment=Play this game on Steam
+Exec=steam steam://rungameid/2678881644
+Icon=/home/oldnero/.config/steamtinkerlaunch/games/header/2678881644.jpg
+Terminal=false
+Type=Application
+Categories=Game;
